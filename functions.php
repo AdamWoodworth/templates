@@ -24,4 +24,16 @@ register_nav_menus(array(
 	));
 //
 
+// BlogInfo Function
+//
+
+// BodyClass Function
+//
+
+// WP Head Function
+// 
+
+// WP Footer Function
+//
+
 ?>
