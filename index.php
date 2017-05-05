@@ -47,18 +47,14 @@
 <div class="navcontainer"> 
   <ul id="topnav">
     <li><a href="main.html"><div id="cart_icon"></div></a></li>
-    <li class="sep">|</li>
     <li ><a href="main.html">Online Store</a></li>
-    <li class="sep">|</li>
     <li ><a href="main.html">Custom Orders</a></li>
-    <li class="sep">|</li>
     <li><a href="main.html">About Letterpress</a>
       <ul class="drop">
         <li><a href="main.html">Modern Letterpress</a></li>
         <li><a href="main.html">The History of Letterpress</a></li>
       </ul>
     </li>
-    <li class="sep">|</li>
     <li><a href="main.html">About Us</a>
       <ul class="drop">
         <li><a href="main.html">Our Shop</a></li>
@@ -74,7 +70,7 @@
 <!-- -END- NAVIGATION -->
 
 <!-- Begin Wordpress Menu -->
-<?php wp_nav_menu(); ?>
+<?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_id' => 'navigation')); ?>
 <!-- -END- Wordpress Menu -->
 
 <!-- Begin Content -->

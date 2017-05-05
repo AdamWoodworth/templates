@@ -1,4 +1,9 @@
-@charset "UTF-8";
+
+    <li class="sep">|</li>
+    <li class="sep">|</li>
+    <li class="sep">|</li>
+    <li class="sep">|</li>
+    <li class="sep">|</li>@charset "UTF-8";
 /* CSS Document */
 /* Cephalopod Press Cascading Style Sheet */
 
@@ -88,11 +93,11 @@ a:hover, a:active {
 	text-decoration: none;
 	text-color:#fff;
 }
-#topnav ul li a:link, a:visited {
+# ul li a:link, a:visited {
 	text-decoration: none;
 	text-color: #ccc;
 }
-#topnav ul li a:hover, a:active {
+# ul li a:hover, a:active {
 	text-decoration: none;
 	text-color:#fff;
 }
@@ -155,7 +160,7 @@ body {
 	height: 40px;
 	z-index: 8000;
 	}
-#topnav {
+# {
 	list-style-type: none;
 	padding-top: 0.75em;
 	padding-bottom: 0.5em;
@@ -164,7 +169,7 @@ body {
 	width: 960px;
 	background-color: #322724;
 	}
-#topnav li {
+# li {
 	float: right;
 	transition: all 0.3s linear;
 	margin-right: 0.3em;
@@ -175,29 +180,29 @@ body {
 	height: 1.5em;
 	text-transform: uppercase;
 	}
-#topnav li a {
+# li a {
 	text-align: center;
 	transition: 0.3s;
 	font-size: 1em;
 	}
 /* DROP DOWN MENU */	
-#topnav li ul {
+# li ul {
 	display: none;
 	position: absolute;
 	padding: .1em;
 	height: 2em;
 	}
-#topnav li ul li {
+# li ul li {
 	display: block;
 	width: 130px;
 	}
-#topnav li ul li a{
+# li ul li a{
 	display: block;
 	height: 1.5em;
 	text-align: center;
 	background-color: #322724;
 	}
-#topnav li ul li:hover a {
+# li ul li:hover a {
 	display:block;
 	}
 	
@@ -238,7 +243,7 @@ body {
 }
 
 
-#topnav li.icon {
+# li.icon {
 	display: none;
 	}
 .navlogo {
@@ -947,13 +952,13 @@ footer {
 	float: none;
 	width: 320px;
 	}
-#topnav {
+# {
 	height: 25px;
 	}	
-#topnav li:not(:first-child){
+# li:not(:first-child){
 	display:none;
 	}
-#topnav li.icon {
+# li.icon {
 	height: 1em;
 	width: 1.5em;
 	float: left;
@@ -966,21 +971,21 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center center;
 	}
-#topnav.responsive {
+#.responsive {
 	position:relative;
 	}
-#topnav.responsive li.icon {		
+#.responsive li.icon {		
 	position: absolute;
 	}
-#topnav.responsive li {
+#.responsive li {
 	float: none;
 	display: inline;
 	}
-#topnav.responsive li a {
+#.responsive li a {
 	display: block;
 	text-align: left;
 	}
-#topnav li.sep {
+# li.sep {
 	display:none;
 	}
 .navlogo {
