@@ -43,23 +43,23 @@
 
 <!-- Begin NAVIGATION -->
   
-<!-- NAV CONTAINER -->
-<div class="navcontainer"> 
-  <ul id="topnav">
+<!-- OLD Navigation -->
+<div class="navigation"> 
+  <ul class="navigation-items">
     <li><a href="main.html"><div id="cart_icon"></div></a></li>
-    <li ><a href="main.html">Online Store</a></li>
-    <li ><a href="main.html">Custom Orders</a></li>
-    <li><a href="main.html">About Letterpress</a>
-      <ul class="drop">
-        <li><a href="main.html">Modern Letterpress</a></li>
-        <li><a href="main.html">The History of Letterpress</a></li>
-      </ul>
-    </li>
-    <li><a href="main.html">About Us</a>
-      <ul class="drop">
-        <li><a href="main.html">Our Shop</a></li>
-        <li><a href="main.html">Adriene Woodworth</a></li>
-      </ul>
+    <li><a href="main.html">Home</a></li>
+	<li><a href="main.html">Blog</a></li>
+	<li><a href="main.html">Store</a>
+	<ul class="drop-down">
+		<li><a href="main.html">Store</a></li>
+		<li><a href="main.html">Custom Orders</a></li>
+	</ul>
+	<li><a href="main.html">About</a>	
+	<ul class="drop-down">
+        <li><a href="main.html">About Cephalopod Press</a></li>
+		<li><a href="main.html">About Letterpress</a></li>
+        <li><a href="main.html">Our Projects</a></li>
+	</ul>
     </li>
     <li class="icon">
       <a href="javascript:void(0);" onclick="openMenu()"></a>
@@ -67,11 +67,13 @@
   <a href="main.html"><div class="navlogo"></div></a>
   </ul>
 </div>
-<!-- -END- NAVIGATION -->
+<!-- -END- OLD NAVIGATION -->
 
 <!-- Begin Wordpress Menu -->
 <?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_id' => 'navigation')); ?>
 <!-- -END- Wordpress Menu -->
+
+<!-- -END- Navigation -->
 
 <!-- Begin Content -->
 	<div class="maincontainer">
