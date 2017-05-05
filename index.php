@@ -43,7 +43,7 @@
 
 <!-- Begin NAVIGATION -->
   
-<!-- OLD Navigation -->
+<!-- OLD Navigation
 <div class="navigation"> 
   <ul class="navigation-items">
     <li><a href="main.html"><div id="cart_icon"></div></a></li>
@@ -70,7 +70,7 @@
 <!-- -END- OLD NAVIGATION -->
 
 <!-- Begin Wordpress Menu -->
-<?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_id' => 'navigation')); ?>
+<?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_class' => 'navigation')); ?>
 <!-- -END- Wordpress Menu -->
 
 <!-- -END- Navigation -->
