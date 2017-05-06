@@ -106,8 +106,8 @@ small a:hover, a:active {
 }
 
 
-/* Three-Line Drop Case */
-p.dropcase:first-child:first-letter {
+/* Three-Line Drop Case*/
+.article div *:first-child:first-letter {
 	font-size: 4.7em;
 	float: left;
 	text-align: left;
@@ -137,13 +137,16 @@ body {
 }
 
 /* Global Container */
-.maincontainer {
+#content {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 1400px;
 	background-color: #FFFFFF;
-	background-image: url(file:///L|/incandescentideas.com/coursework/web200/work/cephalopod-press-staging/css/url);
+}
+
+.page {
+	
 }
 
 /* Global Navigation */

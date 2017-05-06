@@ -55,100 +55,8 @@
 
 <!-- Begin Header -->
 <div id="header">
-	<h1 id="logo"><a href="main.html"><?xml version="1.0" encoding="utf-8"?>
-
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 554.2 175.2" style="enable-background:new 0 0 554.2 175.2;" xml:space="preserve">
-<style type="text/css">
-	.st0{enable-background:new    ;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g>
-	<g class="st0">
-		<path class="st1" d="M174.4,114.5c2.9,0,5.3,0.3,7.2,2c2.1,1.8,2.6,4.4,2.6,6.2c0,4.1-2.5,8.1-9.1,8.1h-2.8v12.5h-3.2v-28.8H174.4
-			z M172.4,127.7h2.6c3.8,0,6.1-1.9,6.1-5.2c0-4.6-4.3-5-6.3-5h-2.4V127.7z"/>
-		<path class="st1" d="M216.1,114.5c1.9,0,4.8,0.1,7,1.6c1.7,1.1,3.1,3.3,3.1,6.4c0,4.4-2.9,7.6-7.2,7.9l9.1,12.9h-3.9l-8.8-12.6
-			h-0.8v12.6h-3.2v-28.8H216.1z M214.7,127.8h2c4,0,6.3-1.9,6.3-5.3c0-1.6-0.5-3.2-2.3-4.2c-1.3-0.7-2.8-0.8-4.1-0.8h-1.9V127.8z"/>
-		<path class="st1" d="M270.8,117.5H259v8.5h11.4v3H259v11.2h11.7v3h-14.9v-28.8h14.9V117.5z"/>
-		<path class="st1" d="M312.2,120.2c-0.4-0.8-1-1.6-1.7-2.2c-0.6-0.4-1.6-1-3.2-1c-2.8,0-4.8,1.8-4.8,4.4c0,1.1,0.3,1.8,1.1,2.5
-			c0.9,0.9,1.9,1.3,3,1.8l2.8,1.2c1.7,0.7,3.2,1.5,4.4,2.7c1.5,1.5,2.1,3.1,2.1,5.2c0,5.3-3.9,8.8-9.1,8.8c-1.9,0-4.3-0.4-6.3-2.3
-			c-1.4-1.4-2.3-3.4-2.7-5.1l3.1-0.9c0.2,1.5,0.9,2.8,1.7,3.7c1.3,1.3,2.7,1.6,4.1,1.6c3.9,0,5.8-2.8,5.8-5.7c0-1.3-0.4-2.4-1.4-3.4
-			c-0.8-0.8-1.9-1.3-3.4-2l-2.6-1.2c-1.1-0.5-2.5-1.1-3.8-2.4c-1.3-1.2-2-2.5-2-4.7c0-4.4,3.4-7.4,8.1-7.4c1.8,0,3.2,0.3,4.6,1.3
-			c1.2,0.8,2.2,1.9,2.8,3.2L312.2,120.2z"/>
-		<path class="st1" d="M356.3,120.2c-0.4-0.8-1-1.6-1.7-2.2c-0.6-0.4-1.6-1-3.2-1c-2.8,0-4.8,1.8-4.8,4.4c0,1.1,0.3,1.8,1.1,2.5
-			c0.9,0.9,1.9,1.3,3,1.8l2.8,1.2c1.7,0.7,3.2,1.5,4.4,2.7c1.5,1.5,2.1,3.1,2.1,5.2c0,5.3-3.9,8.8-9.1,8.8c-1.9,0-4.3-0.4-6.3-2.3
-			c-1.4-1.4-2.3-3.4-2.7-5.1l3.1-0.9c0.2,1.5,0.9,2.8,1.7,3.7c1.3,1.3,2.7,1.6,4.1,1.6c3.9,0,5.8-2.8,5.8-5.7c0-1.3-0.4-2.4-1.4-3.4
-			c-0.8-0.8-1.9-1.3-3.4-2l-2.6-1.2c-1.1-0.5-2.5-1.1-3.8-2.4c-1.3-1.2-2-2.5-2-4.7c0-4.4,3.4-7.4,8.1-7.4c1.8,0,3.2,0.3,4.6,1.3
-			c1.2,0.8,2.2,1.9,2.8,3.2L356.3,120.2z"/>
-	</g>
-	<g>
-		<g>
-			<path class="st1" d="M15.5,117.5C5,106.4,0,93.6,0,72.1c0-15.2,5.5-31.4,16-43.8c7.5-8.8,18.8-18.9,37.1-18.9
-				c18.4,0,29.3,11,36.6,15.6s16.1,9.5,24.7,11.4c7.9,1.7,17.9,2,28-3.5c1.1-0.6,2.1-0.3,1.5,1c-1.2,2.8-13.4,8.6-28.3,7
-				c-13-1.4-22.4-5.1-31-10.5c-5.2-3.3-19.9-8.8-30-8.8C34.4,21.6,16,48.2,16,72.1c0,18,2.5,27.5,12.5,38.3
-				c10.7,11.7,23.8,12.5,33.3,10.2c8.3-2.1,16.5-7.4,27.7-6.9c11.7,0.5,20.2,7.1,24.7,13.2c0.6,1.3-0.1,2.9-1.6,1.6
-				c-6.3-4.8-13-9-22-9c-14.4,0-19.1,13-41,12.9C32.3,132.3,24.3,126.5,15.5,117.5z"/>
-			<path class="st1" d="M85.7,67.1c-0.2,1.1-0.4,2.9-0.4,5.6c0,11.4,7.2,20.1,16.6,20.1c7.1,0,12.1-4.1,14.1-7.9
-				c0.2-0.5,0.7-0.7,1.1-0.6l1.5,0.8c0.4,0.1,0.6,0.5,0,1.8c-2.1,4.7-8.2,12.7-18.6,12.7c-6.7,0-14-2-18.3-8.3
-				c-4.1-6-5.1-10.3-5.1-18.5c0-4.6,1.2-12.4,7.4-18.6c5-5.1,10.9-6.2,16.7-6.2c13.4,0,17.2,12.6,17.2,17.2c0,1.6-1.4,1.9-3.3,1.9
-				H85.7z M104.3,63.6c2.2,0,3.2-0.6,3.2-1.6c0-2.7-1.4-10.4-9-10.4c-5.1,0-10,3.4-12.3,12H104.3z"/>
-			<path class="st1" d="M134,65.1c0-2.8-0.8-4.4-4.2-6.3l-2.7-1.5c-0.8-0.4-0.8-0.7-0.8-1.1v-0.9c0-0.4,0.2-0.6,0.8-0.8l11.2-5.6
-				c0.9-0.5,1.9-0.9,2.7-0.9c0.6,0,0.8,0.6,0.8,2.3l0.5,5.6h0.4c3.2-4.1,9.2-7.8,17-7.8c6,0,9.9,2.6,13.3,5.7
-				c4.4,4.4,6.3,9.2,6.3,18.2c0,15.3-10.6,27.6-25.2,27.6c-3.2,0-8.1-0.5-11.7-2c0,0,0-10.4,0,23.4c0,20-5.1,27.8-16.9,32.7
-				c-16.6,6.9-43.7-11.6-62.6-11.2c-20.7,0.5-27.8,10.3-27.8,10.3c-1.3,1.8-3.2,0.8-1.8-1.2c0.2-0.2,8.4-12.2,29.2-13.5
-				c18.2-1.1,48.3,12.3,60.7,6.3c8.2-3.9,9.3-9.5,10-18.5c0.3-3.5,0.8-15.3,0.8-23.2L134,65.1L134,65.1z M142.4,86.5
-				c0,2.6,0.2,4.7,2.5,6.2c3.3,2.3,6.9,3.2,11.7,3.2c6.7,0,13.5-5,13.5-19.5c0-16.3-7.4-22.9-15.2-22.9c-4.9,0-9.7,2.8-12.5,7.5
-				V86.5z"/>
-			<path class="st1" d="M387.4,65.1c0-2.8-0.8-4.4-4.2-6.3l-2.7-1.5c-0.8-0.4-0.8-0.7-0.8-1.1v-0.9c0-0.4,0.2-0.6,0.8-0.8l11.2-5.6
-				c0.9-0.5,1.9-0.9,2.7-0.9c0.6,0,0.8,0.6,0.8,2.3l0.5,5.6h0.4c3.2-4.1,9.2-7.8,17-7.8c6,0,9.9,2.6,13.3,5.7
-				c4.4,4.4,6.3,9.2,6.3,18.2c0,15.3-10.6,27.6-25.2,27.6c-3.2,0-8.1-0.5-11.7-2c0,0,0,9.4,0,43.2c0,20-5.1,27.8-16.9,32.7
-				c-16.6,6.9-43.7-11.6-62.6-11.2c-20.7,0.5-25.3,9.3-26.7,11.2c-2.4,3.3-5.2,1.4-2.9-2c1.4-2,8.4-12.2,29.2-13.5
-				c18.2-1.1,48.3,12.3,60.7,6.3c8.2-3.9,9.3-9.5,10-18.5c0.3-3.5,0.8-35.1,0.8-43L387.4,65.1L387.4,65.1z M395.8,86.5
-				c0,2.6,0.2,4.7,2.5,6.2c3.3,2.3,6.9,3.2,11.7,3.2c6.7,0,13.5-5,13.5-19.5c0-16.3-7.4-22.9-15.2-22.9c-4.9,0-9.7,2.8-12.5,7.5
-				V86.5z"/>
-			<path class="st1" d="M191.4,34.5c0-7.1-1.2-22.4-13.8-23.6s-29.2,19.9-54.3,18.4C104.2,28.2,89,14.5,88.1,13.7
-				c-1.7-1.5-0.8-2.9,1.3-1.2c1.1,0.9,15.7,10.7,34.6,12.3c18.7,1.5,36.2-20.3,50.7-20.3c11.5,0,25.2,1.9,25.2,29.3
-				c0,6-0.1,12-0.1,14.5v7.5h0.6c4.1-4.9,10.9-7.6,16-7.6c4.9,0,8.3,1.5,11.6,4.7c5.3,4.9,5,10.9,5,17.2v6.7c0,6.5,0.2,13.8,0.2,16
-				c0,1.4,1.9,1.8,4.3,1.8h2c0.9,0,1.3,0.2,1.3,1.1v1.8c0,0.9-0.2,1.4-0.9,1.4c-0.8,0-4.6-0.4-11.2-0.4c-5.7,0-9.9,0.4-11,0.4
-				c-0.8,0-1.1-0.4-1.1-1.3v-2c0-0.6,0.1-0.9,0.8-0.9h2.7c2,0,4.3-0.2,4.4-2.2c0.1-1.6,0-7.8,0-11.6v-9.5c0-6.5-0.5-11.2-3.9-14.4
-				c-2.3-2.2-4.8-3.3-7.7-3.3c-3.4,0-7.6,1.2-10.9,4.9c-1.1,1.3-2.3,3.6-2.3,5.7v25.5c0,3.7,0.4,4.8,2.6,4.8h3.5
-				c0.8,0,1.3,0.2,1.3,0.9v2c0,0.8-0.2,1.3-0.9,1.3c-0.9,0-5.7-0.4-11.1-0.4c-5.8,0-10.3,0.4-11.3,0.4c-0.5,0-0.8-0.4-0.8-1.2v-2.1
-				c0-0.8,0.5-0.9,1.8-0.9h2.5c1.9,0,3.6-0.5,3.9-1.9c0.4-2.2,0.4-15.1,0.4-22.7V34.5H191.4z"/>
-			<path class="st1" d="M333.2,91.5c-5.4-6.4-6.4-10.7-6.4-19c0-6,3.2-13.4,10-18.8c6.1-4.7,11.8-5.6,15.6-5.6
-				c6.4,0,12.8,3.3,16.3,6.8c5.3,5.4,7.9,11.4,7.9,19c0,12.7-11.4,25.7-25.8,25.7C345.3,99.6,338.1,97.3,333.2,91.5z M365.4,72.7
-				c0-13-9.5-21.1-15.4-21.1c-3.2,0-6.2,0.7-9,3.7c-4.6,4.7-6.2,9.5-6.2,18.3c0,6.5,0.7,11,4.4,16.3c2.7,3.9,6.1,6.1,11.6,6.1
-				C359.7,96.1,365.4,85.2,365.4,72.7z M460.5,61.3c6.7,0-0.1,5.6-0.1,12.5s8.1,12.5,0.1,12.5c-6.4,0-2.9-5.6-2.9-12.5
-				S454,61.3,460.5,61.3z M344.7,61.3c6.7,0-0.1,5.6-0.1,12.5s8.1,12.5,0.1,12.5c-6.4,0-2.9-5.6-2.9-12.5S338.3,61.3,344.7,61.3z"/>
-			<path class="st1" d="M448.3,91.5c-5.4-6.4-6.4-10.7-6.4-19c0-6,3.2-13.4,10-18.8c6.1-4.7,11.8-5.6,15.6-5.6
-				c6.4,0,12.8,3.3,16.3,6.8c5.3,5.4,7.9,11.4,7.9,19c0,12.7-11.4,25.7-25.8,25.7C460.5,99.6,453.2,97.3,448.3,91.5z M480.5,72.7
-				c0-13-9.5-21.1-15.4-21.1c-3.2,0-6.2,0.7-9,3.7c-4.6,4.7-6.2,9.5-6.2,18.3c0,6.5,0.7,11,4.4,16.3c2.7,3.9,6.1,6.1,11.6,6.1
-				C474.8,96.1,480.5,85.2,480.5,72.7z"/>
-		</g>
-		<path class="st1" d="M420,17.6c-6.7,7.3-18.1,8.2-29,5.3C370,17.2,359.3,5,349.4,2.3c-8.7-2.3-21-5-31.8,4
-			c-4.1,3.4-3.4,2.8-12.5,8.5c-4.2,2.6-3.7,1.7-7.6,3.4c-0.7,0.2-1.1,0.5-1.1,0.8v1c0,0.2,0.1,0.4,0.7,0.6l2.3,0.8
-			c3.7,1.2,5.6,3,5.8,7c0.2,3,0.4,13.7,0.4,22v7.4c0,6.8,0,26.9-0.1,30.5c-0.1,2.1-1.3,2.9-2.6,2.9h-5.6c-1.3,0-1.5,0.2-1.5,1.1v2
-			c0,0.7,0.2,1.2,0.8,1.2c1.1,0,5.7-0.4,13.2-0.4c7.2,0,12.4,0.4,13.2,0.4c0.5,0,0.7-0.5,0.7-1.2v-2c0-0.7-0.2-1.1-1.3-1.1h-5.3
-			c-2.5,0-2.9-1.6-3-3.6C314,84,314,66.3,314,60.3v-9.2c0.1-0.4,0.1-0.9,0.1-1.7c-0.1-8.2,0.3-15.1,2.4-21.5
-			C323,7.8,342.2,7,352.8,13.6c12.2,7.6,25.5,13.2,37,14.8c13.7,1.9,23.7-0.5,31.8-9C423.9,16.9,422.3,15.1,420,17.6z"/>
-		<path class="st1" d="M554.1,94.3l-0.2-0.9c-0.2-0.6-0.7-0.7-2.3-0.8s-4.1-0.8-5.1-2c-0.9-1.2-1.2-6.3-1.2-10.6c0,0,0-39.4,0-51.5
-			c0-18.7-15.8-29-32.7-22.9C501,9.8,494.4,15.4,483.8,21c-10.6,5.5-19.3,7-27.1,4.5c-5.5-1.8-9.8-4-11.6-11
-			c-0.5-1.9-2.5-1.7-2.3,0.3c0.6,7.6,6.1,12.5,11.5,14.9c7.7,3.4,20.6,3.1,31.7-1.8c9.8-4.4,16.9-9.2,26.6-13.6
-			c14.6-6.6,24.2,3,24.2,15.1v21.2c-3.5-1.1-7.7-1.8-12.5-1.8c-6.5,0-12.8,2.5-17.4,7.4c-5.5,5.5-8.2,12.6-8.2,19.9
-			c0,7.8,1.4,13.1,7.4,18.9c5.5,5.6,9.9,5.4,13.8,5.4c6,0,13.4-2.6,17.2-6.3l1.5,5.1c0.2,0.8,0.8,1.2,1.5,0.9l13.2-4.4
-			C554,95.4,554.2,95,554.1,94.3z M536.8,84.9c0,1.3-0.1,2.2-0.7,4c-1.2,3-6.2,6.4-12.7,6.4c-6.8,0-15.9-9.6-15.9-22.8
-			c0-4.4,0.8-10.6,5.4-15.5c3-3.2,7-4.2,10.6-4.2c6.9,0,10.6,3.2,12.3,6.3c1.1,1.9,1.1,4.1,1.1,5.7L536.8,84.9L536.8,84.9z"/>
-		<path class="st1" d="M291.5,91.7l-1.2-0.9c-0.5-0.4-0.7-0.1-1.2,0.5c-0.6,0.8-2.2,1.8-4.1,1.8c-2.1,0-3.5-2.1-3.5-8.8v-37
-			c-0.1-10,0.8-16.1-0.1-22.8c-1.9-13.6-12.7-21-26.6-20c-12.2,0.9-21,9.9-20.8,21.8c0.1,5.5,2.4,9.5,4.2,12.1c2,2.8,6,6.3,8.7,8.4
-			c1.5,1.1,4.5,3.2,5.7,4.7c0.6,1,1.2,1.9,1.8,2.9c2.8,4.4-2.6,10.8-6.6,6.6c-1.3-1.4-3-1.4-2.8,0.1c0.9,7.3,11.9,6.6,14.7,0.5
-			c5.4-12-12-20-16.7-27.6c-5.1-8.3-0.1-19.5,7.8-21.4c11-2.7,20,3,22.1,13.7c1.3,6.5,0.3,11.4,0.1,18c0,0.1,0,1.9,0,2V69
-			c-1.9,1.6-7.9,4.4-13.2,6.8c-9.2,4.1-11.7,8.8-11.7,14.1c0,7.4,4.2,9.7,7,9.7c2.6,0,4.7,0,6.9-0.7c5.3-1.8,9.1-4.2,11.6-7.1h0.2
-			c1.1,4.8,4.1,7.8,8.3,7.8c6,0,8.2-4,9.1-5.7C292.1,92.7,291.9,92.1,291.5,91.7z M273.1,86.8c0,3.2-6.2,7.2-9.6,7.2
-			c-3.5,0-6.1-2.1-6.1-6.4c0-9.7,11.4-12,15.6-15.2v14.4H273.1z"/>
-	</g>
-</g>
-</svg>
-</a>
-</h1>
+	<h1 id="logo"><a href="main.html"><img src="<?php bloginfo('template_directory'); ?>/images/logo.svg"></a></h1>
+	<img id="toggle" src="<?php bloginfo('template_directory'); ?>/images/toggle.svg" width="25" height="25" alt="Toggle Menu">
 </div>
 <!-- -END- Header -->
 
@@ -187,96 +95,22 @@
 <!-- -END- Navigation -->
 
 <!-- Begin Content -->
-	<div class="maincontainer">
-		<div id="page-aboutletterpress">
-
-		  <section class="intro">
-			<h2>About Cephalopod Press</h2>
-			<hr>
-			<article>
-			  <p class="dropcase">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</article>
-			<h3>Think On Your Feet</h3>
-			<hr>
-		  </section>
-
-		<!-- GATEWAY -->
-		<section class="feature" id="gateway">
-			<h2>Why Letterpress?</h2>
-			<h3>Why Cephalopods?</h3>
-			<fr>
-			<div class="gate">
-			  <div class="gate_img">
-			  <a href="file:///L|/incandescentideas.com/coursework/web170/template/aboutus-theshop.php"><img src="file:///L|/incandescentideas.com/coursework/web170/template/images/ink_knife.jpg" width="320" height="320" alt="Our Shop"/></a>
-			  </div>
-			  <h2>Our Shop</h2>
-			</div>
-			<div class="gate">
-			  <div class="gate_img">
-			  <a href="file:///L|/incandescentideas.com/coursework/web170/template/aboutus-adriene.php"><img src="file:///L|/incandescentideas.com/coursework/web170/template/images/03002c23.jpg" alt="Modern Letterpress" width="320" height="320"></a>
-			  </div>
-			  <h2>Adriene Woodworth</h2>
-			</div>
-			<div style="clear: both;">&nbsp;</div> <!-- clear fix hack-->
-			<hr>
-		  </section>
-		<!-- /GATEWAY -->  
-
-		<!-- BLOG MODULE -->
-		<section id="module-blog">
-		  <!-- NEWS MAIN -->
-		  <div class="feature" id="blog">
-			  <hr>
-			  <div class="blog_entry">
-			  <h2>The Cephalopod Blog</h2>
-				  <p class="dropcase">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			<hr>
-		  </div>
-		  <!-- NEWS MAIN -->
-		  <!-- BLOGROLL -->
-		  <div class="feature" id="blogroll">
-			<h3>Older Entries</h3>
-			<hr>
-			<div class="blogroll_post">
-			  <div class="blogroll_text">
-				<hr>
-				<h4>MM/DD/YY</h4>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
-			  </div>
-			  <div class="blogroll_img">
-				<img src="file:///L|/incandescentideas.com/coursework/web170/template/images/404-in_press.jpg" alt=""/>
-			  </div>
-			</div>
-			<hr>
-			<div class="blogroll_post">
-			  <div class="blogroll_text">
-				<hr>
-				<h4>MM/DD/YY</h4>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
-			  </div>
-			  <div class="blogroll_img">
-				<img src="file:///L|/incandescentideas.com/coursework/web170/template/images/404-in_press.jpg" alt=""/>
-			  </div>
-			</div>
-			<hr>
-			<h3> Older still...</h3>
-		  </div>
-		  <div style="clear: both;">&nbsp;</div> <!-- clear fix hack-->
-		  <!-- /BLOGROLL -->
-		</section>
-		  <!-- /BLOG MODULE -->
-
-
-		</div>
-	</div><!-- /MAIN CONTAINER -->
-
+<!-- Begin Text -->
+	<div id="content" class="page">
+		
+		<?php if (have_posts()) : while (have_posts()) : The_post(); ?>
+		<article id="article-<?php the_ID(); ?>" class="article">
+		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h2> <!-- Pulls and crams the Title with parmalink attached-->
+		<?php the_content(); ?> <!-- Pulls and crams the article -->
+		<small>index.php</small> <!-- Remove eventually -->
+		</article>
+		<?php endwhile; endif; ?>
+		
+	</div>
+<!-- -END- Text -->
 <!-- -END- Content -->
 
-<!-- Container -->
-<div class="maincontainer">
+<!-- Begin Footer -->
 <footer>
   <div class="makersmark"><a href="http://cepalopod-industries.com" target="_blank"></a> <a href="http://cephalopod-industries.com" target="_blank"><img src="file:///L|/incandescentideas.com/coursework/web170/template/images/aw_full_logo_shameless.svg" alt=""/></a> 
   </div> 
@@ -310,11 +144,8 @@
     </div>
     <!-- Begin WP Footer -->
     <!-- -END- WP Footer -->
-  </footer>
-<section id="about" data-type="background" data-speed="20">
-</section>
-</div>
-<!-- /Container -->
+</footer>
+<!-- -END- Footer -->
 <script src="file:///L|/incandescentideas.com/coursework/web170/template/js/js.js"></script>
 </body>
 </html>
