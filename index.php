@@ -61,37 +61,9 @@
 <!-- -END- Header -->
 
 <!-- Begin NAVIGATION -->
-  
-<!-- OLD Navigation
-<div class="navigation"> 
-  <ul class="navigation-items">
-    <li><a href="main.html"><div id="cart_icon"></div></a></li>
-    <li><a href="main.html">Home</a></li>
-	<li><a href="main.html">Blog</a></li>
-	<li><a href="main.html">Store</a>
-	<ul class="drop-down">
-		<li><a href="main.html">Store</a></li>
-		<li><a href="main.html">Custom Orders</a></li>
-	</ul>
-	<li><a href="main.html">About</a>	
-	<ul class="drop-down">
-        <li><a href="main.html">About Cephalopod Press</a></li>
-		<li><a href="main.html">About Letterpress</a></li>
-        <li><a href="main.html">Our Projects</a></li>
-	</ul>
-    </li>
-    <li class="icon">
-      <a href="javascript:void(0);" onclick="openMenu()"></a>
-    </li>
-  <a href="main.html"><div class="navlogo"></div></a>
-  </ul>
-</div>
-<!-- -END- OLD NAVIGATION -->
-
 <!-- Begin Wordpress Menu -->
 <?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_class' => 'navigation')); ?>
 <!-- -END- Wordpress Menu -->
-
 <!-- -END- Navigation -->
 
 <!-- Begin Content -->
@@ -112,7 +84,7 @@
 
 <!-- Begin Footer -->
 <footer>
-  <div class="makersmark"><a href="http://cepalopod-industries.com" target="_blank"></a> <a href="http://cephalopod-industries.com" target="_blank"><img src="file:///L|/incandescentideas.com/coursework/web170/template/images/aw_full_logo_shameless.svg" alt=""/></a> 
+  <div class="makersmark"><a href="http://incandescentideas.com" target="_blank"><img id="aw-logo" src="<?php bloginfo('template_directory'); ?>/images/aw_logo.svg" alt="Shameless Self Promotion"/></a> 
   </div> 
   <div class="footer_column">
     <div class="social">
@@ -138,14 +110,15 @@
     </div>
     <div class="copyright">
      <small>
-       &copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth<br><a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~  
-       <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+       &copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth
      </small>
     </div>
-    <!-- Begin WP Footer -->
-    <!-- -END- WP Footer -->
 </footer>
 <!-- -END- Footer -->
-<script src="file:///L|/incandescentideas.com/coursework/web170/template/js/js.js"></script>
+   
+<!-- Begin WP Footer -->
+<?php wp_footer(); ?>
+<!-- -END- WP Footer -->
+    
 </body>
 </html>
