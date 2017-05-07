@@ -82,27 +82,27 @@ small {
 	}
 a:link, a:visited {
 	text-decoration: none;
-	text-color: #ccc;
+	color: #ccc;
 }
 a:hover, a:active {
 	text-decoration: none;
-	text-color:#fff;
+	color:#fff;
 }
 ul li a:link, a:visited {
 	text-decoration: none;
-	text-color: #ccc;
+	color: #ccc;
 }
 ul li a:hover, a:active {
 	text-decoration: none;
-	text-color:#fff;
+	color:#fff;
 }
 small a:link, a:visited {
 	text-decoration: none;
-	text-color: #ccc;
+	color: #ccc;
 }
 small a:hover, a:active {
 	text-decoration: none;
-	text-color:#fff;
+	color:#fff;
 }
 
 
@@ -141,7 +141,6 @@ body {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1400px;
 	background-color: #FFFFFF;
 }
 
@@ -150,47 +149,46 @@ body {
 }
 
 /* Global Navigation */
-.navigation{
+#menu-main-menu {
 	width: 960px;
 	margin: 0 auto;
 	padding: 10px 0;
 	height: 40px;
 	z-index: 8000;
 	}
-.navigation ul {
-	float: right;
+#menu-main-menu .menu-item ul {
+	list-style-type: none;
 	transition: all 0.3s linear;
-	margin-right: 0.3em;
-	padding-right: 0.3em;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	height: 1.5em;
+	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
 	}
-.navigation-items ul li {
-	list-style: none;
+#menu-main-menu .menu-item ul li {
 	float: right;
-	margin: 0;
-	margin-right: 20px;
+	border-left: 1px solid #bbb;
 }
-.navigation-items ul li ul.drop-down {
-	display: none;
+#menu-main-menu .menu-item ul li:last-child {
+	border-right: none;
 }
-.navigation-items a {
-	text-decoration: none;
-	text-align: center;
-	transition: 0.3s;
-	font-size: 1em;
+#menu-main-menu .menu-item li a {
+	display: block;
 	color: #AAA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition: 0.3s;
 	}
-.navigation-items a:hover {
+#menu-main-menu .menu-item .active {
+	background-color: #4CAF50;
+}
+#menu-main-menu .menu-item a:hover {
 	color: #FFF;
 	}
 
 /* DROP DOWN MENU */
-.navigation ul li ul.drop-down  {
-	}
+.menu-item ul li ul.drop-down {
+	display: none;
+}
 /* /DROP DOWN MENU */
 
 	
@@ -217,7 +215,7 @@ body {
 }
 
 
-.navigation  li.icon {
+.menu  li.icon {
 	display: none;
 	}
 .navlogo {

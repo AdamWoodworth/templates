@@ -110,7 +110,7 @@
     </div>
     <div class="copyright">
      <small>
-       &copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth
+       &copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth<br><a href="http://www.cephalopod-press.com/wordpress/wp-login.php?redirect_to=http%3A%2F%2Fwww.cephalopod-press.com%2Fwordpress%2Fwp-admin%2F&reauth=1">Log In</a>
      </small>
     </div>
 </footer>
