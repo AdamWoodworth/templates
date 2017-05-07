@@ -147,6 +147,10 @@ body {
 .page {
 	
 }
+/* Header */
+#header {
+	width: 100%;
+}
 
 /* Global Navigation */
 #menu-main-menu {

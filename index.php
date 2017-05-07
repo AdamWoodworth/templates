@@ -31,7 +31,7 @@
 </script>
 <!-- -END- FlexSlider -->
 
-<!-- Begin Navigation Drop-Down Function -->
+<!-- Begin Mobile Navigation Function -->
 <script type="text/javascript" charset="utf-8">
 	$(window).load(function() { //prepare function during window load
 		$("#toggle").click(function() { // when ID of 'toggle' is clicked
@@ -39,7 +39,7 @@
 		});
 	});
 </script>
-<!-- -END- Navigation Drop-Down Function -->
+<!-- -END- Mobile Navigation Function -->
 
 <!-- Adobe Typekit Code -->
 <script src="https://use.typekit.net/qwp8tzf.js"></script>
