@@ -76,7 +76,6 @@ p {
 li {
 	font-family: "futura-pt", sans-serif;
 	font-size: 1em;
-	margin-right: 20px;
 	color: #322724;
 }
 small {
@@ -132,126 +131,93 @@ body {
 /* -End- Header */
 
 /* Begin Navigayion */
-.navigation {
+div.navigation {
 	width: 960px;
-	margin: auto;
+	margin: 0px auto;
 }
-ul .menu-item {
+ul#menu-main-menu {
 	display: inline-flex;
-	height: 40px;
 	list-style-type: none;
 	transition: all 0.3s linear;
-	margin: 0 ;
-	padding: 10px 20px;
+	margin: 0px auto;
 	overflow: hidden;
+	color: #AAA;
 	background-color: #777070;
 	text-transform: uppercase;
 }
-li .menu-item {
-	float: left;
+ul#menu-main-menu a {
+	height: 40px;
+	padding: 0px 10px;
+	font-size: 2em;
 }
-.menu-item a {
-	display: inline;
-    text-align: center;
-	color: #AAA;
-    padding: 14px 16px;
-	font-size: 1.5em;
-    text-decoration: none;
-	transition: 0.3s;
-}
-li .menu-item a:hover {
-	background-color: #333030;
+ul#menu-main-menu a:hover, a:active {
+	color: #FFF;
 	}
-li .menu-item .active {
+ul#menu-main-menu a:link, a:visited {
+	color: #AAA;
+	}
+ul#menu-main-menu .active {
 	background-color: #888080;
 }
-/*ul .sub-menu {
-	display: hidden;
+/* test */
+li#menu-main-menu a, .menu-item {
+    display: block;
+    text-decoration: none;
 }
-ul .sub-menu li .menu-item {
-	display: hidden;
+li#menu-main-menu a:hover, menu-item:hover .menu-item {
+    display: block
+}
+/* test */
+ul .sub-menu {
+	display: block;
     position: absolute;
     background-color: #777070;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
-a .sub-menu {
-    text-align: center;
-	color: #AAA;
-    padding: 14px 16px;
-    text-decoration: none;
-	transition: 0.3s;
+li .sub-menu {
+	height: 40px;
 }
-.sub-menu a:hover {
-	background-color: #333030;
-	}
-.sub-menu .active {
-	background-color: #888080;
-}
-*/
-/*
-
-li .menu-item a:link, a:visited {
-	text-decoration: none;
-	color: #ccc;
-}
-li .menu-item a:hover, a:active {
-	text-decoration: none;
-	color:#fff;
-}
-li .menu-item ul li a:link, a:visited {
-	text-decoration: none;
-	color: #ccc;
-}
-li .menu-item ul li a:hover, a:active {
-	text-decoration: none;
-	color:#fff;
-}
-*/
-
-/* Begin Menu Drop-Down Funtion */
-/* -End- Menu Drop-Down Funtion */
-
-	
-#cart_icon {
-	background-image: url(file:///L|/incandescentideas.com/coursework/web200/work/cephalopod-press-staging/images/cart_full.svg);
-	width: 2em;
-	height: 1.4em;
-	background-size: contain;
-	float: right;
-	display: inline-block;
-	margin-right: .5em;
-	margin-top: 0px;
-	padding: 0px;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-.menu  li.icon {
+li .sub-menu a {
 	display: none;
-	}
-.navlogo {
-	width: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	background-image: url(file:///L|/incandescentideas.com/coursework/web200/work/cephalopod-press-staging/images/logo.svg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 1.8em;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	float: left;
-	}
-/* Begin Mobile Navigation */
+    background-color: #777070;
+}
+#menu-main-menu:hover .sub-menu {
+    display: block;
+}
+
+/* Begin CS# Dropdown Tech */
+
+/*
+li#menu-main-menu a, .menu-item {
+    display: block;
+    text-decoration: none;
+}
+
+li#menu-main-menu a:hover, menu-item:hover .menu-item {
+    display: block
+}
+
+#menu-main-menu .sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu-main-menu .sub-menu a {
+    display: block;
+}
+
+#menu-main-menu .sub-menu a:hover {
+	background-color: #f1f1f1
+}
+
+#menu-main-menu:hover .sub-menu {
+    display: block;
+}
+*/
+/* -END- CS# Dropdown Tech */
+
 #toggle {
 	display: none;
 }
-/* -End- Mobile Navigation */
-
 /* -End- Navigation */
 /*/////////////////*/	
 
@@ -281,32 +247,32 @@ li .menu-item ul li a:hover, a:active {
 
 /* Begin Footer */
 /* Begin Footer Typography */
-footer {
+#footer {
 	width: 960px;
 	height: 350px;
-	background-color: #322724;
+	background-color: #777070;
 	clear: both;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	}
-footer h3 {
-	color: #B3B3B3;
+#footer h3 {
+	color: #AAA;
 	text-align: center;
 	}
-footer p {
-	color: #717070;
+#footer p {
+	color: #AAA;
 	}
-footer small {
-	color: #717070;
+#footer small {
+	color: #AAA;
 	}
-Footer a:link, a:visited {
+#footer a:link, a:visited {
 	text-decoration: none;
-	color: #717070;
+	color: #AAA;
 }
-Footer a:hover, a:active {
+#footer a:hover, a:active {
 	text-decoration: none;
-	color: #919090;
+	color: #FFF;
 }
 /* -End- Footer Typography */
 .makersmark {
@@ -349,7 +315,7 @@ Footer a:hover, a:active {
 	text-align: center;
 	padding-top: 0.125em;
 	padding-bottom: 0.125em;
-	color: #FFFFFF;
+	color: #AAA;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	}
@@ -360,7 +326,7 @@ Footer a:hover, a:active {
 	text-align: center;
 	padding-top: 0.125em;
 	padding-bottom: 0.125em;
-	color: #FFFFFF;
+	color: #AAA;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	}
@@ -489,9 +455,7 @@ footer {
 	margin-left: 5px;
 	margin-right: 5px;
 }
-.courtesy {
+.courtesy, .copyright{
 	width: 320px;
 	}
-.copyright {
-	width:320px;
-	}
+}
