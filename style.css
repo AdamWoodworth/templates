@@ -167,8 +167,8 @@ li#menu-main-menu a, .menu-item {
 li#menu-main-menu a:hover, menu-item:hover .menu-item {
     display: block
 }
-/* test */
-ul .sub-menu {
+/* end test */
+li .sub-menu {
 	display: block;
     position: absolute;
     background-color: #777070;
@@ -180,7 +180,7 @@ li .sub-menu a {
 	display: none;
     background-color: #777070;
 }
-#menu-main-menu:hover .sub-menu {
+#menu-main-menu li:hover ul.sub-menu a {
     display: block;
 }
 
