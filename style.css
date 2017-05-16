@@ -208,7 +208,7 @@ li .sub-menu a {
 	margin-right: auto;
 	background-color: #E1E5D6;
 }
-#content p :first-child:first-letter {
+#content em:first-child:first-letter {
 
 /* Three-Line Drop Case */
 	font-size: 4.7em;

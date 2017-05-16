@@ -2,8 +2,7 @@
 <!-- Begin Header -->
 <div id="header">
 	<hr class="header">
-	<h1 id="logo"><a href="http://www.cephalopod-press.com/wordpress/">
-	<img src="<?php bloginfo('template_directory'); ?>/images/logo.svg"></a>
+	<h1 id="logo"><a href="http://www.cephalopod-press.com/wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.svg"></a>
 	<hr class="header"></h1>
 </div>
 <!-- -END- Header -->
