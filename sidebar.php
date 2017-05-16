@@ -3,7 +3,7 @@
 <div id="sidebar">
 	
 	<!-- Begin Subnav -->
-	<small>sidebar.php</small>
+	<h3>sidebar.php</h3>
 	<!-- -END- Subnav -->
 	
 </div>
