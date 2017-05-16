@@ -200,12 +200,21 @@ li .sub-menu a {
 /* -End- Navigation */
 /*/////////////////*/	
 
+/* Begin Main Container */
+#main_container {
+	width: 960px;
+	margin: auto;
+	background-color: #E1E5D6;
+	
+}
+/* -END- Main Container */
 
 /* Begin Content */
 #content {
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
+	width: 780px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: #E1E5D6;
 }
 #content em:first-child:first-letter {
@@ -223,6 +232,16 @@ li .sub-menu a {
 	
 }
 /* -End- Content */
+
+/* Begin Sidebar */
+#sidebar {
+	float: right;
+	width: 140px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #E1E5D6;
+}
+/* -END- Sidebar */
 
 /* Begin Footer */
 /* Begin Footer Typography */

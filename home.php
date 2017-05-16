@@ -18,7 +18,9 @@
 <!-- -END- Wordpress Menu -->
 <!-- -END- Navigation -->
 
+
 <!-- Begin Content -->
+<div id="main_container">
 <div id="content" class="page">
 
 	<?php if (have_posts()) : while (have_posts()) : The_post(); ?>
@@ -29,5 +31,9 @@
 	<?php endwhile; endif; ?>
 
 </div>
+
+<?php get_sidebar(); ?>
+
+</div> <!-- /main_container -->
 <!-- -END- Content -->
 <?php get_footer(); ?>
