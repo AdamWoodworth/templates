@@ -1,31 +1,5 @@
-<!--
-Theme Name: Cephalopod Press Custom Theme
-Author: Adam Woodworth
-Author URI: http://www.incandescentideas.com/
-Description: This theme was custom designed for Cephalopod Press and is Copyrighted 2017, Adam Woodworth, All rights reserved.
-Version: Alpha 1.0
--->
-
 <?php get_header(); ?>
-<body <?php body_class(); ?>>
 
-<!-- Begin Header -->
-<div id="header">
-	<h1 id="logo-sm"><a href="http://www.cephalopod-press.com/wordpress/">
-	<img src="<?php bloginfo('template_directory'); ?>/images/logo.svg"></a>
-</div>
-<!-- -END- Header -->
-
-<!-- Begin Navigation -->
-
-<img id="toggle" src="<?php bloginfo('template_directory'); ?>/images/toggle.svg" width="25" height="25" alt="Toggle Menu">
-
-<!-- Begin Wordpress Menu -->
-
-<?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_class' => 'navigation')); ?>
-
-<!-- -END- Wordpress Menu -->
-<!-- -END- Navigation -->
 	<!-- This file pulls content from the database and displays it in the PAGE.PHP area -->
 	<!-- Begin Content -->
 	<div id="content">

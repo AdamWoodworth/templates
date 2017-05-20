@@ -140,9 +140,9 @@ body {
 /* -End- Header */
 
 /* Begin Navigayion */
-div.navigation {
+#navigation {
 	width: 960px;
-	margin: 0px auto;
+	margin: 20px auto 0px auto;
 }
 ul#menu-main-menu {
 	display: inline-flex;
@@ -168,6 +168,8 @@ ul#menu-main-menu a:link, a:visited {
 ul#menu-main-menu .active {
 	background-color: #888080;
 }
+
+/*//////*/
 /* test */
 li#menu-main-menu a, .menu-item {
     display: block;
@@ -177,6 +179,8 @@ li#menu-main-menu a:hover, menu-item:hover .menu-item {
     display: block
 }
 /* end test */
+/*//////////*/
+
 li .sub-menu {
 	display: block;
     position: absolute;
@@ -198,14 +202,12 @@ li .sub-menu a {
 	display: none;
 }
 /* -End- Navigation */
-/*/////////////////*/	
 
 /* Begin Main Container */
 #main_container {
 	width: 960px;
 	margin: auto;
 	background-color: #E1E5D6;
-	
 }
 /* -END- Main Container */
 
@@ -229,7 +231,7 @@ li .sub-menu a {
 	line-height: 0.8em;
 }
 .page {
-	
+	background-color: #E1E5D6;
 }
 /* -End- Content */
 
@@ -244,16 +246,13 @@ li .sub-menu a {
 /* -END- Sidebar */
 
 /* Begin Footer */
-/* Begin Footer Typography */
 #footer {
 	width: 960px;
-	height: 350px;
-	background-color: #777070;
-	clear: both;
-	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 15px;
 	}
+/* Begin Footer Typography */
 #footer h3 {
 	color: #AAA;
 	text-align: center;
@@ -273,26 +272,27 @@ li .sub-menu a {
 	color: #FFF;
 }
 /* -End- Footer Typography */
+/* Continue Footer */
 .makersmark {
 	width: 300px;
 	height: 282px;
 	float: left;
-	margin-top: 50px;
 	margin-left: 9px;
 	margin-right: 9px;
 	}
 .footer_column {
 	float: right;
 	width: 640px;
-	align-content: center;
-	margin-top: 75px;
 	}
+.footer_column .menu {
+	
+}
 .social {
 	width: 350px;
+	height: 60px;
 	align-content: center;
-	padding-bottom: 0.125em;
-	padding-top: 0.125em;
-	margin-top: 40px;
+	margin-top: .125em;
+	margin-bottom: .125em;
 	margin-left: auto;
 	margin-right: auto;
 	}
@@ -302,8 +302,6 @@ li .sub-menu a {
 	background-repeat: no-repeat;
 	background-size: contain;
 	float: left;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 	}
@@ -335,30 +333,31 @@ li .sub-menu a {
   /*///////////////////*/
  /* Responsive Styles */
 /*///////////////////*/
-@media screen and (max-width: 979px) {
-	
+@media screen and (max-width: 960px) {
+
 /* Responsive Container*/
 .body {
-	width: 320px;
+	width: 100%;
 	}
 /* Begin Responsive Header */
 #header {
-	width: 320px;
+	width: 100%;
 }
 /* -End- Responsive Header */
-	
-/* Begin Respohnsive Nav */	
+
+/* Begin Respohnsive Nav
 .container header nav {
 	float: none;
-	width: 320px;
+	width: 100%;
 	}
-.navigation  {
+.navigation {
 	height: 25px;
+	overflow:hidden;
 	}	
-.navigation  li:not(:first-child){
+.navigation li:not(:first-child){
 	display:none;
 	}
-.navigation  li.icon {
+.navigation li.icon {
 	height: 1em;
 	width: 1.5em;
 	float: left;
@@ -370,21 +369,21 @@ li .sub-menu a {
 	background-repeat: no-repeat;
 	background-position: center center;
 	}
-.navigation .responsive {
+.navigation {
 	position: relative;
 	}
-.navigation .responsive li.icon {		
+.navigation li.icon {		
 	position: absolute;
 	}
-.navigation .responsive li {
+.navigation li {
 	float: none;
 	display: inline;
 	}
-.navigation .responsive li a {
+.navigation li a {
 	display: block;
 	text-align: left;
 	}
-.navigation  li.sep {
+.navigation li.sep {
 	display:none;
 	}
 .navlogo {
@@ -403,45 +402,45 @@ li .sub-menu a {
 	margin-bottom: 0px;
 	float: left;
 	}
-/* -End- Responsive Nav */
+ -End- Responsive Nav */
 
-/* Responsive Hero */	
-.hero {
-	height: 350px;
-	padding-top:100px;
+/* Begin Responsive Main-Container */
+#main_container {
+	width:100%;
 }
-.logo {	
-	width: 90%;
-	height: 150px;
-	margin-top:0px;
-	margin-bottom: -10px;
-	margin-left: auto;
-	margin-right: auto;	
+/* -END- Responsive Main-Container */
+
+/* Begin Responsive Content */
+#content {
+	float:none;
+	width: 100%;
 }
+/* -END- Responsive Content */
+
+/* Begin Sidebar */
+#sidebar {
+	float: none;
+	width: 100%;
+}
+/* -END- Sidebar */
 
 /* Responsive footer styles */
+#footer {
+	float:none;
+	width: 320px;
+	margin-left:auto;
+	margin-right:auto
+}
 .makersmark {
 	float: none;
-	align-content: center;
-	margin-top:1em;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top:0;
 	}
-footer {
+.footer_column .menu {
+	float:none;
 	width: 320px;
-	height: 600px;
-	padding-top: 1em;
-	clear: both;
-	margin-left: auto;
-	margin-right: auto;
-}
-.footer_column {
-	width: 320px;
-	margin-top:.125em;
-	margin-left:auto;
-	margin-right:auto;
 	}
 .social {
+	float:none;
 	width: 250px;
 	}
 .square {
@@ -454,6 +453,7 @@ footer {
 	margin-right: 5px;
 }
 .courtesy, .copyright{
+	float:none; 
 	width: 320px;
 	}
 }
