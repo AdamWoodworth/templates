@@ -1,3 +1,6 @@
+</div>
+<!-- -END- Nain-Container -->
+
 <!-- Begin Footer -->
 <footer>
 <div id="footer">

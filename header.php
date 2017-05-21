@@ -55,7 +55,9 @@
 
 </head>
 
+
 <body <?php body_class();?>>
+
 
 <!-- Begin Header Masthead -->
 <div id="header">
@@ -65,16 +67,16 @@
 </div>
 <!-- -END- Header Masthead -->
 
+
 <!-- Begin Responsive Menu Toggle Button -->
 <img id="toggle" src="<?php bloginfo('template_directory'); ?>/images/toggle.svg" width="25" height="25" alt="Toggle Menu">
 <!-- -END- Responsive Menu Toggle Button -->
 
 
-<!-- This is where the Navigation should go.. pretty sure the classes are messed up-->
 <!-- Begin Wordpress Menu -->
-
 <?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_class' => 'navigation')); ?>
-
 <!-- -END- Wordpress Menu -->
 
+<!-- Begin Main-Container -->
+<div id="main-container">
 <!-- Begin Content -->
