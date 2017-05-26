@@ -36,14 +36,27 @@
 <!-- Begin Article Section -->
 	
 	<section class="widget-item">
-
+		
+		<h2>Cephalopod News!</h2>
+       
+        <ul>
+	<!-- Begin truncated article Loop -->
+			<?php rewind_posts(); ?> <!-- Not entirely sure what this does, maybe clearing out the previous loop? -->
+			<?php query_posts(array('posts_per_page' => '2', 'category_name' => 'news')); ?> <!-- Sets the number of articles to put in this list -->
+			<?php while (have_posts()) : the_post(); ?> <!-- pulls and crams the next post in order into the next 'li' -->
+			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+			<?php endwhile; ?> <!-- Closes the Article Loop -->
+	<!-- -END- Truncated Article Loop -->
+        </ul>
+        
+        
 		<h2>Behold!</h2>
 		<h3>Our latest Machinations!</h3>
        
         <ul>
 	<!-- Begin truncated article Loop -->
 			<?php rewind_posts(); ?> <!-- Not entirely sure what this does, maybe clearing out the previous loop? -->
-			<?php query_posts('showposts=4'); ?> <!-- Sets the number of articles to put in this list -->
+			<?php query_posts(array('posts_per_page' => '4', 'category_name' => 'project' )); ?> <!-- Sets the number of articles to put in this list -->
 			<?php while (have_posts()) : the_post(); ?> <!-- pulls and crams the next post in order into the next 'li' -->
 			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 			<?php endwhile; ?> <!-- Closes the Article Loop -->
