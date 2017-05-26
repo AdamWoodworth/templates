@@ -3,37 +3,59 @@
 <!-- Begin main_container -->
 <div id="content" class="page">
 
-	<section class="widget-item welcome"> <!-- After launch, see which of these is working -->
-
+<!-- Begin Content Section -->
+	
+	<section class="widget-item">
+       
         <h2>Welcome to Cephalopod Press</h2>
-
+        
 	<!-- Begin Content Loop -->
         <?php if (have_posts()) : while(have_posts()) : the_post(); ?> <!-- Starts the content loop -->
+		<article id="article-<?php the_ID(); ?>" class="article"> <!-- Defines article for css -->
 		<?php the_content(''); ?> <!-- pulls and crams the content (note the use of '') -->
+		</article>
 		<?php endwhile; endif; ?> <!-- closes the content loop -->
-	<!-- -END- Content Loop -->
-
+	<!-- -END- Content Section -->
+				
+		<small>front-page.php</small>
+		
 	</section>
+		
+<!-- -END- Content Section -->
 
-	<section class="widget-item welcome-articles"> <!-- After launch, see which of these is working -->
+<!-- Begin Flex Slider -->
+	<div class="flexslider">
+		<ul class="slides">
+			<li><img src="<?php bloginfo('template_directory') ?>/images/img_slide_01.jpg" width="940" height="400" alt="Slider Image 1"</li>
+			<li><img src="<?php bloginfo('template_directory') ?>/images/img_slide_02.jpg" width="940" height="400" alt="Slider Image 2"</li>
+			<li><img src="<?php bloginfo('template_directory') ?>/images/img_slide_03.jpg" width="940" height="400" alt="Slider Image 3"</li>
+		</ul>
+	</div>
+<!-- -END- Flex Slider -->
 
-		<h3>Behold! Our latest machinations!</h3>
+<!-- Begin Article Section -->
+	
+	<section class="widget-item">
+
+		<h2>Behold!</h2>
+		<h3>Our latest Machinations!</h3>
        
         <ul>
-	<!-- Begin  Article Loop -->
+	<!-- Begin truncated article Loop -->
 			<?php rewind_posts(); ?> <!-- Not entirely sure what this does, maybe clearing out the previous loop? -->
-			<?php query_posts('showposts=3'); ?> <!-- Sets the number of articles to put in this list -->
+			<?php query_posts('showposts=4'); ?> <!-- Sets the number of articles to put in this list -->
 			<?php while (have_posts()) : the_post(); ?> <!-- pulls and crams the next post in order into the next 'li' -->
 			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 			<?php endwhile; ?> <!-- Closes the Article Loop -->
-	<!-- -END- Article Loop -->
+	<!-- -END- Truncated Article Loop -->
         </ul>
 
 	</section>
+	
+<!-- -END- Article Section -->
 
 </div>
 
 <!-- -END- Content -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -14,17 +14,19 @@
 <!-- -END- Meta -->
 
 <!-- Begin Styles -->
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider/flexslider.css" type="text/css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 <!-- -END- Styles -->
 
 <!-- Begin Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js" />
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> <!-- not sure I need this one. circle back later. -->
+<script src="<?php bloginfo('template_directory'); ?>/flexslider/jquery.flexslider.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+<!-- -END- Scripts -->
 
-<!-- Begin Responsive Menu Toggle -->
+<!-- Begin Responsive Menu Toggle --><!-- STILL NOT WORKING -->
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() { // enable function as window loads
 	$("#toggle").click(function() { // when #toggle is clicked...
@@ -36,9 +38,23 @@
 
 <!-- Begin FlexSlider -->
 <script type="text/javascript" charset="utf-8">
-	$(window).load(function() { // enable function as window loads
-		$('.flexslider').flexslider(); //pull Flexslider Function
-	});
+  $(window).load(function() {
+ 
+    //simple FlexSlider call
+    $('.flexslider').flexslider();
+ 
+    // more complex call
+    $('.flexslider').flexslider({
+         animation: "slide",
+         controlsContainer: ".flex-container",
+         start: function(slider) {
+           $('.total-slides').text(slider.count);
+         },
+         after: function(slider) {
+           $('.current-slide').text(slider.currentSlide);
+         }
+    });
+  });
 </script>
 <!-- -END- FlexSlider -->
 
