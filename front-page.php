@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Begin main_container -->
-    <div id="widgets main_container"> <!-- After launch, see which of these is working -->
+<div id="content" class="page">
 
 	<section class="widget-item welcome"> <!-- After launch, see which of these is working -->
 
@@ -31,6 +31,9 @@
 
 	</section>
 
-    </div> <!-- Main Container -->
+</div>
 
+<!-- -END- Content -->
+
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

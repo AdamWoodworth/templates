@@ -1,7 +1,7 @@
 <?php get_header(); ?>
+<!-- This file pulls content from the database and displays it in the PAGE.PHP area -->
+<!-- Begin Content -->
 
-	<!-- This file pulls content from the database and displays it in the PAGE.PHP area -->
-	<!-- Begin Content -->
 	<div id="content">
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // Fires PHP post grabbing loop ?>
 	<h2><?php the_title(); //pulls the titlw for the nect post in the loop and crams it here ?></h2>
@@ -10,7 +10,8 @@
 	<small>page.php</small>
 	<?php if(is_404()){ echo '404 Error. Page not found'; } ?>
 	</div>
-	<!-- -End- Content -->
 
 <?php get_sidebar(); ?>
+
+<!-- -End- Content -->
 <?php get_footer(); ?>

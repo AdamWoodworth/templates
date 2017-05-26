@@ -16,11 +16,9 @@ register_nav_menus(array(
 
 // Register The Sidebar
 register_sidebar(array(
-	'before_widget' => '<div id="%1$s" class="widget %2$s">', //redefines WP sidebar name. is 'widget' WP specific?
-	'after_widget' => '</div>', //structural
-	'before_title' => '<h2>', //structural
-	'after_title' => '</h2>', //structural
-));
+	'before_widget' => '<div id="%1$s" class="widget %2$s sidebar01">', //Registers the sidebar for WP
+	'after_widget' => '</div>', //Adds </div> after  the close of the sidebar widget
+	));
 
 // Create Post Thumbnails
 add_theme_support( 'post-thumbnails' ); //adds pre-installed WP function

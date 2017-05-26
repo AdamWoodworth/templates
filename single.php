@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-	<!-- Begin Content -->
-	<div id="content">
+<!-- Begin Content -->
+<div id="content" class="page">
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> <!-- checks for posts -->
 	<article id="post-<?php the_ID(); ?>" class="post">
 	<h2><?php the_title(); ?></h2> <!-- pulls+crams the title for the nect post in the loop -->
@@ -9,10 +9,11 @@
 	<?php the_post_thumbnail('large'); ?> <!-- pulls the featured image and crams it here -->
 	<?php the_content(''); ?> <!-- pulls the written content for the next post and crams it here (note the '')-->
 	</articl>
-	<?php endwhile; endif; ?> <!-- Closes the loop
+	<?php endwhile; endif; ?> <!-- Closes the loop -->
 	<small>single.php</small>
-	</div>
-	<!-- -End- Content -->
+	<?php if(is_404()){ echo '404 Error. Page not found'; } ?>
+</div>
+<!-- -End- Content -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

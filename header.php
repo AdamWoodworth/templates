@@ -77,6 +77,7 @@
 <?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_class' => 'navigation')); ?>
 <!-- -END- Wordpress Menu -->
 
-<!-- Begin Main-Container -->
+<!-- Begin #Main-Container -->
 <div id="main-container">
+
 <!-- Begin Content -->
