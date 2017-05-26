@@ -43,8 +43,12 @@
 	<!-- Begin truncated article Loop -->
 			<?php rewind_posts(); ?> <!-- Not entirely sure what this does, maybe clearing out the previous loop? -->
 			<?php query_posts(array('posts_per_page' => '2', 'category_name' => 'news')); ?> <!-- Sets the number of articles to put in this list -->
-			<?php while (have_posts()) : the_post(); ?> <!-- pulls and crams the next post in order into the next 'li' -->
+			<dl>
+				<dt><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail' ); ?></a> <!-- pulls and places the featured image --></dt>
+				<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br><?php the_excerpt(''); ?></dd><!-- stacks the title and exerpt -->
+			</dl>
 			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+			<li><?php the_excerpt(''); ?></li>
 			<?php endwhile; ?> <!-- Closes the Article Loop -->
 	<!-- -END- Truncated Article Loop -->
         </ul>
@@ -58,7 +62,10 @@
 			<?php rewind_posts(); ?> <!-- Not entirely sure what this does, maybe clearing out the previous loop? -->
 			<?php query_posts(array('posts_per_page' => '4', 'category_name' => 'project' )); ?> <!-- Sets the number of articles to put in this list -->
 			<?php while (have_posts()) : the_post(); ?> <!-- pulls and crams the next post in order into the next 'li' -->
-			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+			<dl>
+				<dt><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail' ); ?></a> <!-- pulls and places the featured image --></dt>
+				<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br><?php the_excerpt(''); ?></dd><!-- stacks the title and exerpt -->
+			</dl>
 			<?php endwhile; ?> <!-- Closes the Article Loop -->
 	<!-- -END- Truncated Article Loop -->
         </ul>
