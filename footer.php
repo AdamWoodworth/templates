@@ -9,7 +9,9 @@
 	<div class="footer_column">
     
 <!-- Begin Wordpress Menu -->
+	<div id="footer-nav">
 		<?php wp_nav_menu(array('theme_location' => 'footer-navigation', 'container' => 'div', 'container_class' => 'footer-navigation')); ?>
+	</div>
 <!-- -END- Wordpress Menu -->
 
 		<div class="social">
@@ -35,7 +37,7 @@
 	</div>
 	<div class="copyright">
 		<small>
-			&copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth<br><a href="http://www.cephalopod-press.com/wordpress/wp-login.php?redirect_to=http%3A%2F%2Fwww.cephalopod-press.com%2Fwordpress%2Fwp-admin%2F&reauth=1">Admin Log In</a>
+			&copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth<br><a href="http://www.cephalopod-press.com/wordpress/wp-login.php?redirect_to=http%3A%2F%2Fwww.cephalopod-press.com%2Fwordpress%2Fwp-admin%2F&reauth=1"><small>Admin Log In</small></a>
 		</small>
 	</div>
 </div>

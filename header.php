@@ -40,21 +40,21 @@
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
  
-    //simple FlexSlider call
-    $('.flexslider').flexslider();
+    //simple FlexSlider call (use as a backup if this breaks)
+    //$('.flexslider').flexslider();
  
     // more complex call
     $('.flexslider').flexslider({
-         animation: "slide",
-         controlsContainer: ".flex-container",
-         start: function(slider) {
-           $('.total-slides').text(slider.count);
-         },
-         after: function(slider) {
-           $('.current-slide').text(slider.currentSlide);
-         }
-    });
-  });
+		animation: "slide",
+		controlsContainer: ".flex-container",
+		start: function(slider) {
+			$('.total-slides').text(slider.count);
+		},
+		after: function(slider) {
+			$('.current-slide').text(slider.currentSlide);
+			}
+		});
+	});
 </script>
 <!-- -END- FlexSlider -->
 

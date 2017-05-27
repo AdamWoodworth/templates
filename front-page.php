@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Begin main_container -->
-<div id="content" class="page">
+<div id="content" class="front-page">
 
 <!-- Begin Content Section -->
 	
@@ -39,36 +39,32 @@
 		
 		<h2>Cephalopod News!</h2>
        
-        <ul>
-	<!-- Begin truncated article Loop -->
-			<?php rewind_posts(); ?> <!-- Not entirely sure what this does, maybe clearing out the previous loop? -->
-			<?php query_posts(array('posts_per_page' => '2', 'category_name' => 'news')); ?> <!-- Sets the number of articles to put in this list -->
-			<dl>
+		<dl>
+	<!-- Begin news article Loop -->
+			<?php rewind_posts(); ?> <!-- closes and clears out previous loops -->
+			<?php query_posts(array('posts_per_page' => '2', 'category_name' => 'news' )); ?> <!-- Sets the number of articles to put in this list -->
+			<?php while (have_posts()) : the_post(); ?> <!-- pulls and crams the next post in order into the next 'li' -->
 				<dt><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail' ); ?></a> <!-- pulls and places the featured image --></dt>
 				<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br><?php the_excerpt(''); ?></dd><!-- stacks the title and exerpt -->
-			</dl>
-			<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-			<li><?php the_excerpt(''); ?></li>
+				<p class="read-more"><a href="<?php the_permalink(); ?>">Read More...</a></p> <!-- Permalink to the standalone article -->
 			<?php endwhile; ?> <!-- Closes the Article Loop -->
-	<!-- -END- Truncated Article Loop -->
-        </ul>
+	<!-- -END- news Article Loop -->
+		</dl>
         
         
 		<h2>Behold!</h2>
 		<h3>Our latest Machinations!</h3>
        
-        <ul>
-	<!-- Begin truncated article Loop -->
+		<dl>
+	<!-- Begin project article Loop -->
 			<?php rewind_posts(); ?> <!-- Not entirely sure what this does, maybe clearing out the previous loop? -->
 			<?php query_posts(array('posts_per_page' => '4', 'category_name' => 'project' )); ?> <!-- Sets the number of articles to put in this list -->
 			<?php while (have_posts()) : the_post(); ?> <!-- pulls and crams the next post in order into the next 'li' -->
-			<dl>
 				<dt><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail' ); ?></a> <!-- pulls and places the featured image --></dt>
-				<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br><?php the_excerpt(''); ?></dd><!-- stacks the title and exerpt -->
-			</dl>
+				<dd><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br><?php the_excerpt(''); ?><p class="read-more"><a href="<?php the_permalink(); ?>">Read More...</a></p> <!-- Permalink to the standalone article --></dd><!-- stacks the title and exerpt -->
 			<?php endwhile; ?> <!-- Closes the Article Loop -->
-	<!-- -END- Truncated Article Loop -->
-        </ul>
+	<!-- -END- project Article Loop -->
+		</dl>
 
 	</section>
 	

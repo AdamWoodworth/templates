@@ -19,6 +19,7 @@ Version: Alpha 1.0
 	list-style-type: none;
 	background-repeat: no-repeat;
 	background-position: center center;
+	font-size: 18pt;
 }
 
 /* Begin Standard Font Styles */
@@ -82,7 +83,7 @@ small {
     font-family: "futura-pt", sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: .8em;
+    font-size: .6em;
     color: #ccc;
 	color: #322724;
 }
@@ -108,9 +109,9 @@ hr {
 	height: 1px;
 	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
-hr .header {
+hr.header {
 	color: #fff;
-	margin: 20px 0;
+	margin: 3em auto 3em auto;
 }
 /* -End- Standard Font Styles */
 
@@ -164,7 +165,7 @@ ul#menu-main-menu {
 	text-transform: uppercase;
 }
 ul#menu-main-menu a {
-	height: 40px;
+	height: 1.2em;
 	padding: 0px 10px;
 	font-size: 2em;
 }
@@ -177,18 +178,6 @@ ul#menu-main-menu a:link, a:visited {
 ul#menu-main-menu .active {
 	background-color: #888080;
 }
-
-/*//////*/
-/* test */
-li#menu-main-menu a, .menu-item {
-    display: block;
-    text-decoration: none;
-}
-li#menu-main-menu a:hover, menu-item:hover .menu-item {
-    display: block
-}
-/* end test */
-/*//////////*/
 
 li .sub-menu {
 	display: block;
@@ -205,8 +194,6 @@ li .sub-menu a {
 #menu-main-menu li:hover ul.sub-menu a {
     display: block;
 }
-
-
 #toggle {
 	display: none;
 }
@@ -214,16 +201,23 @@ li .sub-menu a {
 
 /* Begin Content */
 #content {
+	background-color: #E1E5D6;
+}
+#content.page {
 	float: left;
 	width: 700px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: #E1E5D6;
 }
-#content em:first-child:first-letter {
+#content.front-page {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 /* Three-Line Drop Case */
-	font-size: 4.7em;
+#content p:first-child:first-letter {
+	font-size: 3em;
 	float: left;
 	text-align: left;
 	margin-right: 3px;
@@ -231,6 +225,10 @@ li .sub-menu a {
 	font-weight: 400;
 	line-height: 0.8em;
 }
+/* -END- Three-line Drop Case */
+
+/* Begin Article */
+/* -END- Article */
 /* -End- Content */
 
 /*///////////////*/
@@ -271,8 +269,7 @@ li .sub-menu a {
 	text-decoration: none;
 	color: #FFF;
 }
-/* -End- Footer Typography */
-/* Continue Footer */
+/* -End- Footer Typography (Continue Footer)*/
 .makersmark {
 	width: 300px;
 	height: 282px;
@@ -284,8 +281,14 @@ li .sub-menu a {
 	float: right;
 	width: 640px;
 	}
-.footer_column .menu {
-	
+#footer-nav {
+	width: 450px;
+	height: 60px;
+	margin: 20px auto 20px auto;
+	overflow: hidden;
+}
+#footer-nav a.page-item {
+	text-decoration-color: rgba(255,0,4,1.00); /* Trying to target the text in the footer menu */
 }
 .social {
 	width: 350px;

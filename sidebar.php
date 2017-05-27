@@ -13,7 +13,6 @@
 				wp_list_pages(array('child_of' => $post->ID, 'title_li' => __(''))); 
 			};?> <!-- Otherwise list the sub-pages with no title -->
 		</ul>
-	</div>
 		<h3>sidebar.php</h3>
 		<?php endif; ?> <!-- end if we are in "pages" -->
 		<?php if (!(is_page())) : ?> <!-- if we are not using page.php... -->
@@ -21,13 +20,11 @@
 		<ul class="sub-navigation-items"><?php wp_list_categories(array('title_li' => __(''))); ?> <!-- ...list the categories with no title -->
 		</ul>
 		<?php endif; ?>
-    </div>
-<!-- -END- Subnav -->
-	
 <!-- Begin Dynamic Sidebar -->
-	<?php dynamic_sidebar(1); ?> <!-- pull+cram  dynamic sidebar WP function
+		<?php dynamic_sidebar(1); ?> <!-- pull+cram  dynamic sidebar WP function -->
 <!-- -END- Dynamic Sidebar -->
-
-</div>
+    </div>
+	</div>
+<!-- -END- Subnav -->
 
 <!-- -END- Sidebar -->

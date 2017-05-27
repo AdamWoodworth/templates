@@ -3,7 +3,7 @@
 
 
 <!-- Begin Content -->
-    <div id="content">
+    <div id="content" class="page">
 		<h1>404</h1>
 		<h2>You done goofed!</h2>
 		<p>I don't know what you were trying to do, but it didn't work. Try something else.</p>
