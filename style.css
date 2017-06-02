@@ -111,38 +111,39 @@ hr {
 }
 hr.header {
 	color: #fff;
-	margin: 3em auto 3em auto;
 }
 /* -End- Standard Font Styles */
 
 /* Begin Body */
 body {
+	opacity:0;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s; /* Safari */
 	background-color: #777070;
 }
 /* -End- Body */
 
 /* Begin Header */
 #header {
-	width: 960px;
+	width: 980px;
 	min-height: 30px;
-	margin: auto;
+	margin: 0px auto 0px auto;
+	padding: 100px 0px 0px 0px;
+	background-image:url(images/kelsey.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
-#logo {
+h1#cephalopod-press-logo {
 	max-width: 90%;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 40px auto 0px auto;
+	padding:0px;
 }
-#logo-sm {
-	float: right;
-	max-width: 20%;
-	margin-top: 0px;
-	}
 /* -End- Header */
 
 /* Begin Main Container */
 #main-container {
-	width: 960px;
+	width: 980px;
 	min-height: 1000px;
 	margin: auto;
 	background-color: #E1E5D6;
@@ -151,17 +152,16 @@ body {
 
 /* Begin Navigayion */
 .navigation {
-	width: 960px;
-	margin: 20px auto 0px auto;
+	width: 100%;
+	margin: 40px auto 0px auto;
+	background-color: rgba(0,0,0,0.20);
 }
 ul#menu-main-menu {
 	display: inline-flex;
 	list-style-type: none;
-	transition: all 0.3s linear;
 	margin: 0px auto;
 	overflow: hidden;
 	color: #AAA;
-	background-color: #777070;
 	text-transform: uppercase;
 }
 ul#menu-main-menu a {
@@ -210,7 +210,7 @@ li .sub-menu a {
 	padding-right: 10px;
 }
 #content.front-page {
-	width: 100%;
+	width: 960px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -245,7 +245,7 @@ li .sub-menu a {
 
 /* Begin Footer */
 #footer {
-	width: 960px;
+	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 15px;

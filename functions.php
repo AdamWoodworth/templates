@@ -51,6 +51,7 @@ function get_my_title_tag() { //creates a new function...
 	echo 'Federal Way, WA.'; // insert 'Federal Way, WA' 
 };
 
+
 //Look out for these functions:
 
 	//have_posts()
