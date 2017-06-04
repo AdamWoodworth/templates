@@ -51,7 +51,6 @@ function get_my_title_tag() { //creates a new function...
 	echo 'Federal Way, WA.'; // insert 'Federal Way, WA' 
 };
 
-
 //Look out for these functions:
 
 	//have_posts()
@@ -60,7 +59,6 @@ function get_my_title_tag() { //creates a new function...
 	//the_title()
 	//the_time('F j,Y')
 	//the_author()
-	//the_post_thumbnail('large')
 	//the_content('')
 	// BlogInfo Function
 	// BodyClass Function

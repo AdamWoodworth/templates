@@ -82,13 +82,22 @@
 	<hr class="header">
 	<h1 id="cephalopod-press-logo">
 <!-- Begin Cephalopod Press Logo -->
-<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="cp-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 554.2 175.2" style="enable-background:new 0 0 554.2 175.2;" xml:space="preserve">
 <style>
 .shape.logo.blank {
-	fill: rgba(255, 255, 255, 0.0);
+	fill: rgba(255, 255, 255, 0.1);
 	stroke-width: .25px;
-	stroke: #fff;
+	stroke: rgba(255, 255, 255, 1.0);
+}
+g:hover {
+	fill: rgba(255, 255, 255, 0.6);
+	transition-duration: .4s;
+}/* ^Doesn't work */
+.shape.logo.blank:hover {
+	fill: rgba(255, 255, 255, 1.0);
+	stroke-width: 0px;
+	transition-duration: 1.5s;
 }
 .shape.logo.draw { /* need a way to change the classes in the svg to this class shortly after page load */
 	fill: rgba(255, 255, 255, 1);

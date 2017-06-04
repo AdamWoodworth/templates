@@ -32,12 +32,14 @@ h1 {
 }
 h2 {
 	font-family: "adobe-caslon-pro", serif;
-	font-size: 1.75em;
+	font-size: 1.85em;
 	font-style: normal;
 	font-weight: 600;
-	line-height:none;
-	margin-bottom: 0px;
-	margin-top: 0px;
+	font-variant-ligatures: normal;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	padding-top: 1em;
+	padding-bottom: 0em;
 	color: #322724;
 }
 h3 {
@@ -48,6 +50,8 @@ h3 {
 	line-height:none;
 	margin-bottom: 0px;
 	margin-top: 0px;
+	padding-top: .25em;
+	padding-bottom: 0em;
 	color: #322724;
 
 }
@@ -84,7 +88,6 @@ small {
     font-style: normal;
     font-weight: 300;
     font-size: .6em;
-    color: #ccc;
 	color: #322724;
 }
 a:link, a:visited {
@@ -171,25 +174,26 @@ ul#menu-main-menu a {
 }
 ul#menu-main-menu a:hover, a:active {
 	color: #FFF;
+	
 	}
 ul#menu-main-menu a:link, a:visited {
-	color: #AAA;
+	color: #999;
 	}
-ul#menu-main-menu .active {
-	background-color: #888080;
+ul#menu-main-menu .current-menu-item {
+	color: #fff;
+	background-color: rgba(0,0,0,0.20);
 }
 
 li .sub-menu {
 	display: block;
     position: absolute;
-    background-color: #777070;
 }
 li .sub-menu {
 	height: 40px;
 }
 li .sub-menu a {
 	display: none;
-    background-color: #777070;
+    background-color: rgba(0,0,0,0.60);
 }
 #menu-main-menu li:hover ul.sub-menu a {
     display: block;
@@ -209,27 +213,125 @@ li .sub-menu a {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+/* Begin #Content Typography */
+#content a:visited, a:link, a:active {
+	text-decoration: none;
+	color: #322724;	
+}
+#content a:hover {
+	text-decoration: none;
+	color: #423734;	
+}
+.page small {
+	color: #322724;
+	padding-bottom: 2em;
+}
+/* -END- #Content Typography */
+
+/* Begin Page Typography */
+div.page h2 {
+	border-bottom: double;
+	border-bottom-color: #322724;
+}
+div.page p {
+	text-align: justify;
+	padding-bottom: 1.2em;
+}
+div.page blockquote {
+	font-style: oblique;
+	border-top: thin inset double;
+	border-bottom: thin inset double;
+}
+/* Three-Line Drop Case */
+div.page p:first-letter {
+	font-size: 3em;
+	font-variant-caps: normal;
+	font-weight: 400;
+	float: left;
+	text-align: left;
+	margin-right: 3px;
+	margin-bottom: 0px;
+	line-height: 0.8em;
+}
+/* -END- Three-line Drop Case */
+/* -END- Page Typography */
+
+
+
+/* Begin Article */
+/* Begin Article Typography */
+/* Begin Article Typography */
+/* -END- Article */
+
+/* Begin Front-Page */
 #content.front-page {
 	width: 960px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+section.widget-item {
+	margin-bottom: 2em;
+}
+section.seo-paragraph p {
+	width: 350px;
+	margin: auto;
+}
+h2, h3 {
+	text-align: center;
+}
+p {
+	text-align: justify;
+}
 
-/* Three-Line Drop Case */
-#content p:first-child:first-letter {
+dl dt a img {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: .5em;
+}
+section#quadrants {
+	width: 800px;
+	margin: auto;
+	clear: both;
+}
+div.quadrant {
+	width: 360px;
+	height: 500px;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+div.bottom {
+	clear: both;
+	width:350px;
+}
+/* Begin Fromt-Page Typography */
+div.front-page p {
+	margin-bottom: 1em;
+	text-align: justify;
+	padding-bottom: 1.2em;
+}
+div.front-page p:first-letter {
 	font-size: 3em;
+	font-variant-caps: normal;
+	font-weight: 400;
 	float: left;
 	text-align: left;
 	margin-right: 3px;
 	margin-bottom: 0px;
-	font-weight: 400;
 	line-height: 0.8em;
 }
-/* -END- Three-line Drop Case */
+/* -END- Fromt-Page Typography */
+/* Begin Front-Page */
 
-/* Begin Article */
-/* -END- Article */
-/* -End- Content */
+/* Begin Single Page*/
+div.bi-line {
+	text-align: center;
+	padding-bottom: 1em;
+}
+/* -END- Single Page*/
+
+/* -END- Content */
 
 /*///////////////*/
 /* Begin Sidebar */

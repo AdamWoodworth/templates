@@ -5,8 +5,9 @@
 <div id="content" class="page">
     <?php if (have_posts()) : while (have_posts()) : The_post(); ?>
     <article id="article-<?php the_ID(); ?>" class="article">
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h2> <!-- Pulls and crams the Title with parmalink attached-->
-    <?php the_content(); ?> <!-- Pulls and crams the article -->
+	<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a> <!-- Pulls and crams the Title with parmalink attached-->
+	<small>Posted on <?php the_time('F j, y'); ?> by <?php the_author(); ?>.</small>
+	<?php the_content(); ?> <!-- Pulls and crams the article -->
     </article>
     <?php endwhile; endif; ?>
     <small>home.php</small>
