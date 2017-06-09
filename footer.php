@@ -5,13 +5,13 @@
 <div id="footer">
 	<div class="makersmark">
 		<a href="http://incandescentideas.com" target="_blank"><img id="aw-logo" src="<?php bloginfo('template_directory'); ?>/images/aw_logo.svg" alt="Shameless Self Promotion"/></a> 
-	</div> 
+	</div> <!-- -END- .makersmark -->
 	<div class="footer_column">
     
 <!-- Begin Wordpress Menu -->
-	<div id="footer-nav">
-		<?php wp_nav_menu(array('theme_location' => 'footer-navigation', 'container' => 'div', 'container_class' => 'footer-navigation')); ?>
-	</div>
+		<div id="footer-nav">
+			<?php wp_nav_menu(array('theme_location' => 'footer-navigation', 'container' => 'div', 'container_class' => 'footer-navigation')); ?>
+		</div>
 <!-- -END- Wordpress Menu -->
 
 		<div class="social">
@@ -31,15 +31,15 @@
 				<a href="#" target="_blank"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">				<path d="M386.12,178.11q0.2,4.45.2,9c0,91.51-69.65,197-197,197A196,196,0,0,1,83.14,353a141,141,0,0,0,16.52,1,139,139,0,0,0,86-29.64A69.32,69.32,0,0,1,121,276.22,69.42,69.42,0,0,0,152.25,275a69.29,69.29,0,0,1-55.55-67.9c0-.29,0-0.58,0-0.87a69,69,0,0,0,31.37,8.66,69.33,69.33,0,0,1-21.43-92.45,196.6,196.6,0,0,0,142.73,72.35,69.29,69.29,0,0,1,118-63.16,138.65,138.65,0,0,0,44-16.81,69.45,69.45,0,0,1-30.45,38.31,138.43,138.43,0,0,0,39.77-10.9A140.74,140.74,0,0,1,386.12,178.11ZM500,0H0V500H500V0Z" style="fill:#fff"/></svg></a>
 			</div>
 		</div>
-	</div>
-	<div class="courtesy">
-		<p><a href="#" target="_blank">disclaimer</a> | <a href="#" target="_blank">terms of use</a> | <a href="#" target="_blank">legal</a></p>
-	</div>
-	<div class="copyright">
-		<small>
-			&copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth<br><a href="http://www.cephalopod-press.com/wordpress/wp-login.php?redirect_to=http%3A%2F%2Fwww.cephalopod-press.com%2Fwordpress%2Fwp-admin%2F&reauth=1"><small>Admin Log In</small></a>
-		</small>
-	</div>
+		<div class="courtesy">
+			<p><a href="#" target="_blank">disclaimer</a> | <a href="#" target="_blank">terms of use</a> | <a href="#" target="_blank">legal</a></p>
+		</div>
+		<div class="copyright">
+			<small>
+				&copy; 2016 Cephalopod Press <br> All Rights Reserved <br> Authored by Adam Woodworth<br><a href="http://www.cephalopod-press.com/wordpress/wp-login.php?redirect_to=http%3A%2F%2Fwww.cephalopod-press.com%2Fwordpress%2Fwp-admin%2F&reauth=1"><small>Admin Log In</small></a>
+			</small>
+		</div>
+	</div> <!-- -END- .footer_column -->
 </div>
 </footer>
 <!-- -END- Footer -->

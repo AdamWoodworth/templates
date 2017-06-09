@@ -29,7 +29,7 @@
 	
 		
 	<h2>Cephalopod News!</h2>
-	<section class="widget-item">
+	<section class="widget-item" id="news">
 		<dl>
 	<!-- Begin news article Loop -->
 			<?php rewind_posts(); ?> <!-- closes and clears out previous loops -->

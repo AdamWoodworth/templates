@@ -147,6 +147,7 @@ h1#cephalopod-press-logo {
 /* Begin Main Container */
 #main-container {
 	width: 980px;
+	padding: 0px;
 	min-height: 1000px;
 	margin: auto;
 	background-color: #E1E5D6;
@@ -265,9 +266,6 @@ div.page p:first-letter {
 
 /* Begin Front-Page */
 #content.front-page {
-	width: 960px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 section.widget-item {
 	margin-bottom: 2em;
@@ -275,6 +273,11 @@ section.widget-item {
 section.seo-paragraph p {
 	width: 350px;
 	margin: auto;
+}
+section#news {
+	width:auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 h2, h3 {
 	text-align: center;
@@ -289,17 +292,18 @@ dl dt a img {
 	margin-bottom: .5em;
 }
 section#quadrants {
-	width: 800px;
+	width: 960px;
+	padding: 0px;
 	margin: auto;
 	clear: both;
 }
 div.quadrant {
-	width: 360px;
-	height: 500px;
+	width: 440px;
+	height: 400px;
 	float: left;
-	padding-right: 10px;
+	padding-right: 20px;
 	padding-bottom: 20px;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 div.bottom {
 	clear: both;
@@ -379,7 +383,7 @@ div.bi-line {
 	margin-left: 9px;
 	margin-right: 9px;
 	}
-.footer_column {
+div.footer_column {
 	float: right;
 	width: 640px;
 	}
@@ -410,12 +414,13 @@ div.bi-line {
 	margin-left: 10px;
 	margin-right: 10px;
 	}
-.courtesy {
-	float: right;
+div.courtesy {
 	width: 640px;
 	text-align: center;
 	padding-top: 0.125em;
 	padding-bottom: 0.125em;
+	margin-left: auto;
+	margin-right: auto;
 	color: #AAA;
 	text-transform: uppercase;
 	letter-spacing: 2px;
